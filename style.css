@@ -1,0 +1,178 @@
+/* google fonts montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@4550&family=Ubuntu:wght@300&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+}
+
+/* navbar */
+.navbarText{
+    font-size: large;
+    font-weight: 500;
+}
+
+.ulText{
+    font-weight: 700;
+    color: black;
+}
+
+.ulText li{
+    color: black;
+    padding: 0px 10px 0px 10px;
+}
+
+.ulText li:hover{
+    border-radius: 10px;
+    background-color: #67B983;
+}
+
+
+/* home page */
+#homePage{
+    background-color: #67B983;
+}
+
+.headingHome{
+    color: white;
+    word-spacing: 2px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.marginTop{
+    padding-top: 150px;
+}
+
+.paraHome{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.letterSpace{
+    letter-spacing: 3px;
+    padding: 0 30px;
+}
+
+.marginBottom{
+    padding-bottom: 170px;    
+}   
+
+.letterSpace:hover{
+    background-color: #67B983;
+    color: white;
+}
+
+/* common for all */
+
+.textUnderline{
+    text-decoration: underline;
+    text-decoration-color: #67B983;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 0.12em;
+    
+}
+.borderRadius{
+    border-radius: 10px !important;
+}
+
+/* about */
+
+.paraLine{
+    word-spacing: 2px;
+    line-height: 30px;
+   /*  font-size: large; */
+}
+.skillsBg{
+    background-color: rgba(153,153,153,0.2);
+    font-size: large;
+    color: #777;
+}
+.marginRightB{
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.backgroundAbout{
+    background-color: #fafafa;
+}
+
+/* projects */
+.paddingProjNm {
+    padding-top:90px !important;
+   
+  }
+
+
+/* contact */
+.contact-us{
+    background-color: #67B983;
+}
+
+.contact h2{
+    color: white;
+    /* ------------space btw characters--------------- */
+}
+.textUnderlineContact
+{
+    text-decoration-color: white;
+}
+
+.marginContactUs{
+    width: 75% !important;
+}
+.btnColor{
+    background-color: #67B983;
+    color: white;
+}
+.btnColor:hover{
+    background-color: #ffffff;
+    border: 3px solid #67B983 !important;
+    color: #67B983;
+}
+
+.fa-brands:hover{
+    border-radius: 10px;
+    background-color: #67B983;
+}
+/* media query */
+
+
+/* homepage */
+
+@media only screen and (max-width: 450px){
+    
+    .headingHome{
+        font-size: 1.7rem;
+    }
+    .paraHome{
+        font-size: 1.4rem;
+    }   
+}
+
+/* 
+@media only screen and (max-width: 850px){
+    .marginContactUs{
+        width: 80% !important;
+    }
+} */
+
+@media only screen and (max-width: 767px){
+    
+   .skillsPaddingTop{
+        padding-top: 50px;
+   }
+   .projects .row {
+        margin-left: -0.3rem !important;
+   }
+   .projects .row .paddingProjNm{
+        padding-top: 20px !important;
+   }
+} 
+
+@media only screen and (min-width: 451px) and ( max-width: 1000px){
+    
+    .headingHome{
+        font-size: 2.4rem;
+    }
+}
+
