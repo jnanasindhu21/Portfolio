@@ -4,6 +4,10 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: larger;
 }
+/* 
+#navBar{
+    position: fixed !important;
+} */
 
 /* navbar */
 .navbarText{
@@ -30,6 +34,8 @@ body{
 /* home page */
 #homePage{
     background-color: #67B983;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 
 .headingHome{
