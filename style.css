@@ -29,7 +29,9 @@ body{
     border-radius: 10px;
     background-color: #67B983;
 }
-
+#navbarSticky{
+    top: 0;
+}
 
 /* home page */
 #homePage{
@@ -135,7 +137,14 @@ body{
     border: 3px solid #67B983 !important;
     color: #67B983;
 }
-
+.btnColor a{
+    color: white;
+    text-decoration: none;
+}
+.btnColor a:hover{
+    background-color: #ffffff;
+    color: #67B983;
+}
 .fa-brands:hover{
     border-radius: 10px;
     background-color: #67B983;
